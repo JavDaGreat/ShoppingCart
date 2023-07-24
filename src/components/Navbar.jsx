@@ -28,7 +28,7 @@ function Navbar() {
          
         </ul>
       
-      <div onClick={handleClick} className='sm:hidden z-10'>
+      <div onClick={handleClick} className='sm:hidden z-20'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       <div className=' sm:hidden' >
@@ -39,7 +39,7 @@ function Navbar() {
       <ul className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 right-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center gap-16 transition-colors'
+            : 'absolute top-0 right-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center gap-16 transition-colors z-10'
         }>
           <li><a className="font-bold">Home</a></li>
           <li><a className="font-bold">Products</a></li>
