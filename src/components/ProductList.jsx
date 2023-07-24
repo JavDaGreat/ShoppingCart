@@ -11,7 +11,7 @@ function ProductList() {
   })
 
   return (
-    <div>{content}</div>
+    <div className='grid grid-cols-3 gap-4 py-2 px-2 place-content-center '>{content}</div>
   )
 
 }
