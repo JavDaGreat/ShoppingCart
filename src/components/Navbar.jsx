@@ -38,7 +38,7 @@ function Navbar({setOpen,open}) {
          
         </ul>
       
-      <div onClick={handleClick} className='sm:hidden z-20'>
+      <div onClick={handleNav} className='sm:hidden z-20'>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       <div className=' sm:hidden' >
