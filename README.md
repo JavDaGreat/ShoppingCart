@@ -1,2 +1,2 @@
-#React-Redux with stripe
-####Shopping cart
+# React-Redux with stripe
+#### Shopping cart
