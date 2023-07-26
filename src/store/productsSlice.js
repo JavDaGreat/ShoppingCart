@@ -4,25 +4,27 @@ const productSlice=createSlice(
   {
     name:"products",
     initialState:{
-      data:[]
+      data:[],
+      dropdown:false
+      
     },
     reducers:{
       addProduct(state,action){
-         state.data.filter((product)=>{
-          if (action.payload.id ===product.id){
-            product.qty+=1
-          }
-          else{
+         const productIndex= state.data.findIndex((product)=> product.id === action.payload.id)
+        if(productIndex>= 0){
+          state.data[productIndex].qty +=1
+        }else{
           state.data.push({
-            name:action.payload.name,
-            cost:action.payload.cost,
+            title:action.payload.title,
+            price:action.payload.price,
             id:action.payload.id,
-            qty:action.payload.qty
+            qty:action.payload.qty,
+            image: action.payload.image
           })
         }
-        })
+        }
         
-      },
+      ,
       removeProduct(state,action){
         const updated =state.data.filter((product)=>{
           return product.id !== action.payload
@@ -30,9 +32,36 @@ const productSlice=createSlice(
         state.data=updated
 
 
+      },
+      isCartOpen(state,action){
+        state.dropdown=action.payload
+
+      },increment(state,action){
+        const productIndex= state.data.findIndex((product)=> product.id === action.payload)
+        if(productIndex>= 0){
+          state.data[productIndex].qty +=1
+
       }
+    
+    
     }
-  }
-)
-export const{addProduct,removeProduct}=productSlice.actions
+    ,decrement(state,action){
+      const productIndex= state.data.findIndex((product)=> product.id === action.payload)
+      if( state.data[productIndex].qty > 1){
+
+        state.data[productIndex].qty -=1
+
+    }else{
+      const updated =state.data.filter((product)=>{
+        return product.id !== action.payload
+      })
+      state.data=updated        
+    }}}})
+    
+
+  
+
+  
+
+export const{addProduct,removeProduct,isCartOpen,increment,decrement}=productSlice.actions
 export const productReducer=productSlice.reducer

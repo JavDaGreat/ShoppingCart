@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { addProduct,removeProduct } from "./productsSlice";
+import { addProduct,removeProduct,isCartOpen,increment,decrement } from "./productsSlice";
 import { productReducer } from "./productsSlice";
 const store=configureStore({
   reducer:{
@@ -7,4 +7,4 @@ const store=configureStore({
   }
 })
 
-export{ store,addProduct,removeProduct}
+export{ store,addProduct,removeProduct,isCartOpen,increment,decrement}

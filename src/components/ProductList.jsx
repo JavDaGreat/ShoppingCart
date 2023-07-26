@@ -1,6 +1,8 @@
 import React from 'react'
 import ProductShow from './ProductShow'
 import jsonProducts from "../assets/product_API.json"
+import Cart from './cart'
+
 
 
 function ProductList() {
@@ -11,7 +13,10 @@ function ProductList() {
   })
 
   return (
-    <div className='grid grid-cols-3 gap-4 py-2 px-2 place-content-center '>{content}</div>
+    <div className='grid grid-cols-3 gap-4 py-2 px-2 place-content-center '>
+
+      {content}
+      </div>
   )
 
 }

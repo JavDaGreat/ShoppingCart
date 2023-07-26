@@ -50,8 +50,8 @@ function SlideShow() {
   }
 
   return (
-<div className='max-w-[1000px] h-[780px] w-full m-auto py-16 px-4 relative'>
-  <h1 className=' font-serif font-bold text-center py-4  '>Tech By Javad S</h1>
+<div className='max-w-[1000px] h-[500px] w-[70%] m-auto py-16 px-4 relative'>
+  <h1 className=' font-serif font-bold text-center py-4 text-lg  '>Populer  <span className='text-red-600 underline underline-offset-4 decoration-2 '>Now</span></h1>
   <div style={{backgroundImage:`url(${images[currentIndex].url})`}} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'></div>
   <div className='absolute top-[50%] translate-x-0 translate-y-[50%] left-5 text-2xl rounded-full p-2 bg-black/20 hover:bg-black/50 text-white cursor-pointer'>
     <BsChevronCompactLeft size={30} onClick={prevSlide} />

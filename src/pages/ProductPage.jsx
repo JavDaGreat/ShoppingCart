@@ -1,11 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
 import ProductList from '../components/ProductList'
+import Cart from '../components/cart'
+
 
 function ProductPage() {
+  const [open ,setOpen] =useState(false)
   return (
     <div>
-      <Navbar />
+      <Navbar setOpen={setOpen} open={open}  />
+      <Cart open={open} setOpen={setOpen} />
+    
+
       <ProductList />
     </div>
   )
