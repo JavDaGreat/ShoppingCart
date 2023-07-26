@@ -38,7 +38,7 @@ function Navbar({setOpen,open}) {
          
         </ul>
       
-      <div onClick={handleNav} className='sm:hidden z-20'>
+      <div onClick={handleNav} className='sm:hidden z-20 '>
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
       <div className=' sm:hidden' >
@@ -54,7 +54,7 @@ function Navbar({setOpen,open}) {
       <ul className={
           !nav
             ? 'hidden'
-            : 'absolute top-0 right-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center gap-16 transition-colors'
+            : 'fixed top-0 right-0 w-full h-screen bg-white/95 flex flex-col justify-center items-center gap-16 transition-colors z-10'
         }>
           <li><a onClick={()=>{Navigate("/")}} className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">Home</a></li>
           <li><a onClick={()=>{Navigate("/products")}} className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">Products</a></li>
