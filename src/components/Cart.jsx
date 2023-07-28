@@ -20,7 +20,7 @@ function Cart({open,setOpen}) {
   })
  console.log(content);
 const checkOut =async()=>{
-  await fetch('http://localhost:4000/checkout',{
+  await fetch('https://main--helpful-crumble-3ad524.netlify.app/checkout',{
     method:"POST",
     headers:{
       "Content-Type":"application/json"
