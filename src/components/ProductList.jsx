@@ -1,7 +1,5 @@
-import React from 'react'
 import ProductShow from './ProductShow'
 import jsonProducts from "../assets/product_API.json"
-import Cart from './cart'
 
 
 

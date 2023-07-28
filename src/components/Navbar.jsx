@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import { FaBars, FaTimes} from 'react-icons/fa';
 import{HiMiniShoppingCart} from"react-icons/hi2"
 import {IoLogoJavascript} from "react-icons/io"
 import { useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import {  useSelector } from 'react-redux';
 
 
 function Navbar({setOpen,open}) {
@@ -34,7 +34,7 @@ function Navbar({setOpen,open}) {
         <ul className=' hidden sm:flex gap-16'>
           <li><a  onClick={()=>{Navigate("/")}} className="font-bold cursor-pointer text-gray-500 hover:text-black">Home</a></li>
           <li><a  onClick={()=>{Navigate("/products")}} className="font-bold cursor-pointer text-gray-500 hover:text-black">Products</a></li>
-          <li><a className="font-bold cursor-pointer text-gray-500 hover:text-black">about</a></li>
+          <li><a onClick={()=>{Navigate("/contact")}} className="font-bold cursor-pointer text-gray-500 hover:text-black">Contact</a></li>
          
         </ul>
       
@@ -58,7 +58,7 @@ function Navbar({setOpen,open}) {
         }>
           <li><a onClick={()=>{Navigate("/")}} className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">Home</a></li>
           <li><a onClick={()=>{Navigate("/products")}} className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">Products</a></li>
-          <li><a className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">about</a></li>
+          <li><a onClick={()=>{Navigate("/contact")}} className="font-bold text-gray-500 hover:text-black hover:underline hover:underline-offset-4 hover:decoration-2  cursor-pointer">Contact</a></li>
          
         </ul>
 
