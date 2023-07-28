@@ -3,7 +3,7 @@ import { FaBars, FaTimes} from 'react-icons/fa';
 import{HiMiniShoppingCart} from"react-icons/hi2"
 import {IoLogoJavascript} from "react-icons/io"
 import { useNavigate } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 
 function Navbar({setOpen,open}) {

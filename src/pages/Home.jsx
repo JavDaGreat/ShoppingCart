@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Navbar from '../components/Navbar'
-import ProductList from '../components/ProductList'
 import SlideShow from '../components/SlideShow'
 import Header from '../components/Header'
 import Cart from '../components/cart'

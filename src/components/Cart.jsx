@@ -1,4 +1,4 @@
-import { useDispatch,useSelector } from 'react-redux'
+import {useSelector } from 'react-redux'
 import ShowCart from './ShowCart';
 import { FaTimes } from 'react-icons/fa';
 import { FaCartShopping } from 'react-icons/fa6';
