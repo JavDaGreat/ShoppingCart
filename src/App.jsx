@@ -4,7 +4,7 @@ import ProductPage from './pages/ProductPage'
 import Cansel from './pages/Cansel'
 import Sucess from './pages/Sucess'
 import Contact from "./pages/Contact"
-import CheckOut from './pages/checkOut'
+import CheckOut from './pages/CheckOut'
 
 
 function App() {
