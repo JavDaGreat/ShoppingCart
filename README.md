@@ -1,6 +1,9 @@
 # React-Redux 
 ### Shopping cart
-check it ooy here : https://shopping-cart-one-sigma.vercel.app/
+check it out here : https://shopping-cart-one-sigma.vercel.app/
+
+
+
 ![Collage Maker-07-Aug-2023-06-34-PM-5797](https://github.com/JavDaGreat/ShoppingCart/assets/98164907/5760fe20-4152-4e1b-bc6d-6d33c6e79af0)
 
 
