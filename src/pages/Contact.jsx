@@ -34,17 +34,17 @@ function Contact(){
 			<form novalidate="" class="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
 				<label class="block">
 					<span class="mb-1">Full name</span>
-					<input type="text" placeholder="Leroy Jenkins" class="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-white-400 border-black border-2 "/>
+					<input type="text" placeholder="Leroy Jenkins" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-white-400 border-black border-2 "/>
 				</label>
 				<label class="block">
 					<span class="mb-1">Email address</span>
-					<input type="email" placeholder="leroy@jenkins.com" class="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-white-400 border-solid border-black border-2"/>
+					<input type="email" placeholder="leroy@jenkins.com" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-white-400 border-solid border-black border-2"/>
 				</label>
 				<label class="block">
 					<span class="mb-1">Message</span>
-					<textarea rows="3" class="block w-full rounded-md focus:ring focus:ri focus:ri bg-white-400 border-solid border-black border-2"></textarea>
+					<textarea rows="3" className="block w-full rounded-md focus:ring focus:ri focus:ri bg-white-400 border-solid border-black border-2"></textarea>
 				</label>
-				<button type="button" class="self-center px-8 py-3 text-lg rounded transform active:scale-90 transition-transform bg-gray-300 dark:text-gray-900 hover:-translate-y-[2px]">Submit</button>
+				<button type="button" className="self-center px-8 py-3 text-lg rounded transform active:scale-90 transition-transform bg-gray-300 dark:text-gray-900 hover:-translate-y-[2px]">Submit</button>
 			</form>
 		</div>
 	</section>

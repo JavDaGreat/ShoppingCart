@@ -2,6 +2,7 @@ import {useSelector } from 'react-redux'
 import ShowCart from './ShowCart';
 import { FaTimes } from 'react-icons/fa';
 import { FaCartShopping } from 'react-icons/fa6';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -11,6 +12,7 @@ function Cart({open,setOpen}) {
     return acc + product.price * product.qty;
   }, 0);
 
+  const Navigate =useNavigate()
 
 
  
@@ -18,23 +20,10 @@ function Cart({open,setOpen}) {
     return <ShowCart title={product.title} key={product.id}   
     id={product.id} price={product.price} image={product.images} />
   })
- console.log(content);
-const checkOut =async()=>{
-  await fetch('https://main--helpful-crumble-3ad524.netlify.app/checkout',{
-    method:"POST",
-    headers:{
-      "Content-Type":"application/json"
-    },
-    body:JSON.stringify({products:products})
+const checkOut =()=>{
+  Navigate("/checkout",{state:{products,total}})
 
-
-  }).then((resp)=>{
-    return resp.json()
-  }).then((resp)=>{
-   if(resp.url){
-    window.location.assign(resp.url)
-   } 
-  })
+ 
 
 }
 

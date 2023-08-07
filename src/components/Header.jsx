@@ -14,7 +14,7 @@ function Header() {
        Explore the latest and greatest selection of smartphones, laptops, and gadgets that will elevate your digital
         experience to new heights. With a seamless and secure shopping experience, we are your
          one-stop destination for all things tech.</p>
-         <button className='bg-gray-300 md:w-[30%] rounded-lg py-2 mb-2 hover:animate-bounce ' onClick={()=>{Navigate("/products")}}> Explore </button>
+         <button className='bg-gray-300 md:w-[30%] rounded-lg py-2 mb-2 ' onClick={()=>{Navigate("/products")}}> Explore </button>
     </div>
     <div className='flex  justify-center py-2 px-4 items-center'  >
       <img className="object-cover h-[300px] w-[70%] rounded-lg " src={header_pic} alt="" />
