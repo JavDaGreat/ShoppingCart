@@ -32,7 +32,8 @@ const productSlice=createSlice(
         state.data=updated
 
 
-      },
+      },     
+     
       isCartOpen(state,action){
         state.dropdown=action.payload
 
