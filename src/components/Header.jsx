@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 function Header() {
   const Navigate=useNavigate()
   return (
-    <div className="grid grid-cols-2 gap-4  py-4 px-4 shadow-2xl shadow-gray-200 ">
+    <div className="grid sm:grid-cols-2 gap-4  py-4 px-4 shadow-2xl shadow-gray-200 ">
       <div className='shadow-2xl flex flex-col justify-center items-center' >
         <h1 className='text-3xl py-8 px-8'>Welcome to Tech Haven: Your Gateway to Ultimate Tech Delights!</h1>
 
