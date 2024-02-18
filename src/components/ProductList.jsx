@@ -15,7 +15,7 @@ function ProductList() {
   });
 
   return (
-    <div className="grid md:grid-cols-3 grid-col-1 gap-4 py-2 px-2 place-content-center ">
+    <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-col-1 gap-4 py-2 px-2 place-content-center ">
       {content}
     </div>
   );
