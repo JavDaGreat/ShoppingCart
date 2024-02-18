@@ -18,12 +18,11 @@ function Header() {
           destination for all things tech.
         </p>
         <button
-          className="bg-gray-300 md:w-[30%] rounded-lg py-2 mb-2 "
+          className="bg-gray-300 w-[100px] rounded-lg py-2 mb-2 "
           onClick={() => {
             Navigate("/products");
           }}>
-          {" "}
-          Explore{" "}
+          Explore
         </button>
       </div>
       <div className="flex  justify-center py-2 px-4 items-center">

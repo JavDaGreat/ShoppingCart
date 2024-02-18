@@ -54,7 +54,7 @@ function Cart({ open, setOpen }) {
         <button
           onClick={checkOut}
           className=" bg-yellow-500 rounded-lg hover:bg-yellow-600 py-2 hover:-translate-y-[2px]  px-5 font-bold focus: shadow-lg transform active:scale-90 transition-transform ">
-          Buy
+          Checkout
         </button>
       </div>
     </div>
