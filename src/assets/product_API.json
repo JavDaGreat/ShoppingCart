@@ -10,7 +10,7 @@
     "brand": "Apple",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-    "images": ["/src/assets/iphone9.jpg"]
+    "images": ["/assets/iphone9.jpg"]
   },
 
   {
@@ -24,7 +24,7 @@
     "brand": "Apple",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-    "images": ["/src/assets/iphone x.jpg"]
+    "images": ["/assets/iphone x.jpg"]
   },
 
   {
@@ -38,7 +38,7 @@
     "brand": "Samsung",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-    "images": ["/src/assets/Galaxy_Book.jpg"]
+    "images": ["/assets/Galaxy_Book.jpg"]
   },
 
   {
@@ -52,7 +52,7 @@
     "brand": "OPPO",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
-    "images": ["/src/assets/OppoF19Pro.JPG"]
+    "images": ["/assets/OppoF19Pro.JPG"]
   },
 
   {
@@ -66,7 +66,7 @@
     "brand": "Huawei",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
-    "images": ["/src/assets/Huawei-P30.jpg"]
+    "images": ["/assets/Huawei-P30.jpg"]
   },
 
   {
@@ -80,7 +80,7 @@
     "brand": "Apple",
     "category": "laptops",
     "thumbnail": "https://i.dummyjson.com/data/products/6/thumbnail.png",
-    "images": ["/src/assets/macbook-air-m2-8512gb-silver--pdp_main-1920.jpg"]
+    "images": ["/assets/macbook-air-m2-8512gb-silver--pdp_main-1920.jpg"]
   },
 
   {
@@ -94,7 +94,7 @@
     "brand": "Samsung",
     "category": "laptops",
     "thumbnail": "https://i.dummyjson.com/data/products/7/thumbnail.jpg",
-    "images": ["/src/assets/Galaxy_Book.jpg"]
+    "images": ["/assets/Galaxy_Book.jpg"]
   },
   {
     "id": "price_1NY8m8Afh3jftwL7Gn4bjDQe",
@@ -107,7 +107,7 @@
     "brand": "Microsoft Surface",
     "category": "laptops",
     "thumbnail": "https://i.dummyjson.com/data/products/8/thumbnail.jpg",
-    "images": ["/src/assets/pc.jpeg"]
+    "images": ["/assets/pc.jpeg"]
   },
 
   {
@@ -121,6 +121,6 @@
     "brand": "Infinix",
     "category": "laptops",
     "thumbnail": "https://i.dummyjson.com/data/products/9/thumbnail.jpg",
-    "images": ["/src/assets/inboook.jpeg"]
+    "images": ["/assets/inboook.jpeg"]
   }
 ]
