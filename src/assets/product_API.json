@@ -24,7 +24,7 @@
     "brand": "Apple",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-    "images": ["/assets/iphone x.jpg"]
+    "images": ["../assets/pic1.jpg"]
   },
 
   {
