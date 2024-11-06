@@ -10,7 +10,7 @@
     "brand": "Apple",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/1/thumbnail.jpg",
-    "images": ["/public/iphone9.jpg"]
+    "images": ["/assets/iphone9.jpg"]
   },
 
   {
@@ -24,7 +24,7 @@
     "brand": "Apple",
     "category": "smartphones",
     "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
-    "images": ["../assets/pic1.jpg"]
+    "images": ["/assets/iphone x.jpg"]
   },
 
   {
